@@ -46,7 +46,7 @@ if __name__ == '__main__':
         for track in tracks['items']:
             print track['name']
             features = sp.audio_features(str(track['id']))
-            print features[0]['energy']
+            print features[0]['key']
             #recommendations = sp.recommendations(str(track['id']))
             #print recommendations
         if len(sys.argv) < 2:
