@@ -1,0 +1,19 @@
+Attributes:
+acousticness
+danceability
+energy
+tempo
+valence
+
+Albums:
+Ocean Rain
+Skylarking
+Violator?
+Sgt. Pepper's
+Pet Sounds
+Station to Station
+Doors?
+The Queen Is Dead
+Pretzel Logic
+Marquee Moon
+Dog Man Star
