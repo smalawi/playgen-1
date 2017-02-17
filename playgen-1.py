@@ -87,7 +87,7 @@ if __name__ == '__main__':
         print "Loading initial playlists..."
         for i in range(0, population_size):
             playlist = []
-            recommendations = sp.recommendations(seed_tracks = trackList, limit = 10)
+            recommendations = sp.recommendations(seed_tracks = trackList, limit = 10) #10-song playlists
             for track in recommendations['tracks']:
                 features = sp.audio_features(str(track['id']))
                 playlist.append((track, features[0]['energy']))
